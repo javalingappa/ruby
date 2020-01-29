@@ -7,9 +7,11 @@ class Example
     @id = id
     @@count = @@count + 1
   end
+
   def print_count()
-      puts "COMPANY = #{@@company} :: COUNT = #{@@count}"
-    end
+    @K = 20
+    puts "COMPANY = #{@@company} :: COUNT = #{@@count}"
+  end
 end
 
 e = Example.new 'Java', 1

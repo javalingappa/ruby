@@ -1,1 +1,0 @@
-# There are 70 string methods that can be used, look into page 94 for details.
